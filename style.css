@@ -1,0 +1,50 @@
+.mapw {
+  border: 1px solid rgba(255, 0, 0, 0.937);
+  background-color: rgb(255, 170, 0);
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+.mapp {
+  border: 1px solid red;
+  background-color: rgb(0, 128, 6);
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+.mapb {
+  border: 1px solid red;
+  background-color: rgb(0, 255, 13);
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+.mapg {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 60, 0.193);
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+.map  {
+  border: 1px solid red;
+  background-color: aqua;
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+
+#container {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,25px);
+  height: 1400px;
+}
+#container>div {
+  height: 50px;
+}
