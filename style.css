@@ -1,4 +1,4 @@
-.mapw {
+.tile-wall {
   border: 1px solid rgba(255, 0, 0, 0.937);
   background-color: rgb(255, 170, 0);
   box-sizing: content-box;
@@ -6,7 +6,7 @@
   width: 25PX;
   height: 25PX;
 }
-.mapp {
+#container .entity-player {
   border: 1px solid red;
   background-color: rgb(0, 128, 6);
   box-sizing: content-box;
@@ -14,7 +14,7 @@
   width: 25PX;
   height: 25PX;
 }
-.mapb {
+#container .entity-block {
   border: 1px solid red;
   background-color: rgb(0, 255, 13);
   box-sizing: content-box;
@@ -22,7 +22,15 @@
   width: 25PX;
   height: 25PX;
 }
-.mapg {
+#container .entity-block-goal {
+  border: 1px solid red;
+  background-color: rgb(255, 247, 0);
+  box-sizing: content-box;
+  display: inline-grid;
+  width: 25PX;
+  height: 25PX;
+}
+.tile-goal {
   border: 1px solid red;
   background-color: rgba(255, 0, 60, 0.193);
   box-sizing: content-box;
@@ -30,7 +38,7 @@
   width: 25PX;
   height: 25PX;
 }
-.map  {
+.tile-space  {
   border: 1px solid red;
   background-color: aqua;
   box-sizing: content-box;

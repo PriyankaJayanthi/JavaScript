@@ -1,6 +1,6 @@
 ﻿/*   This is the base file for the Sokoban assignment - include this one in your HTML page, before you add the main script file*/
 
-var playerpos = "X11Y11"
+var playerpos;
 
 /*   Enum of CSS Classes for the static elements   */
 var Tiles = {
